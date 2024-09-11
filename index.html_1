@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colorful Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FF6347; /* Tomato */
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+        }
+
+        .box {
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .box-1 {
+            background-color: #4682B4; /* Steel Blue */
+        }
+
+        .box-2 {
+            background-color: #32CD32; /* Lime Green */
+        }
+
+        .box-3 {
+            background-color: #FFD700; /* Gold */
+            color: black;
+        }
+
+        footer {
+            background-color: #FF4500; /* Orange Red */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Colorful Web Page</h1>
+    <p>Let's add some color to your day!</p>
+</header>
+
+<section>
+    <div class="box box-1">
+        <h2>Blue Section</h2>
+        <p>This is a cool blue area to relax your mind.</p>
+    </div>
+    <div class="box box-2">
+        <h2>Green Section</h2>
+        <p>Feel the nature with this refreshing green color.</p>
+    </div>
+    <div class="box box-3">
+        <h2>Yellow Section</h2>
+        <p>Get energized with this bright yellow vibe.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Colorful Page</p>
+</footer>
+
+</body>
+</html>
